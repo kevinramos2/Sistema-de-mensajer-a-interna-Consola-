@@ -56,7 +56,7 @@ public class UserPass {
   	//import
 
     public void importar() {
-        try (FileReader lector = new FileReader("Password.txt")) {
+        try (FileReader lector = new FileReader("/DOCS/Password.txt")) {
         	BufferedReader leer = new BufferedReader(lector);
             String linea;
             while ((linea = leer.readLine()) != null) {
