@@ -83,4 +83,10 @@ public class Direccion {
 		return dir;
 	}
 
+	public static Direccion CambiarStringADir2(String direc) {
+		String[] direcc = direc.split(" ");
+		Direccion dir = new Direccion(direcc[0],direcc[1],direcc[2],direcc[3]);
+		return dir;
+	}
+
 }

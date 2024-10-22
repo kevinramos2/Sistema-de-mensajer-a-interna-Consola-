@@ -22,7 +22,7 @@ public class Empleados  {
   	//import
 
     public void importar() {
-        try (FileReader lector = new FileReader("/DOCS/Empleados.txt")) {
+        try (FileReader lector = new FileReader("Empleados.txt")) {
         	BufferedReader leer = new BufferedReader(lector);
             String linea;
             while ((linea = leer.readLine()) != null) {
