@@ -42,7 +42,7 @@ public class Fecha {
 	//toString 
 	public String toString() {
 		return 
-				dd+"-"+mm+"-"+aa;
+				dd+" "+mm+" "+aa;
 	}
 
 	public static Fecha StringAFecha(String fechainp) {
